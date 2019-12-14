@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qw.korea.sdk.crm.backstage.mapper.GoogleTokenMapper">
+  <resultMap id="BaseResultMap" type="com.qw.korea.sdk.crm.backstage.entity.GoogleToken">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="client_id" jdbcType="VARCHAR" property="clientId" />
+    <result column="client_secret" jdbcType="VARCHAR" property="clientSecret" />
+    <result column="refresh_token" jdbcType="VARCHAR" property="refreshToken" />
+    <result column="access_token" jdbcType="VARCHAR" property="accessToken" />
+    <result column="expires_in" jdbcType="INTEGER" property="expiresIn" />
+    <result column="token_type" jdbcType="VARCHAR" property="tokenType" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="refresh_start_time" jdbcType="TIMESTAMP" property="refreshStartTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+</mapper>

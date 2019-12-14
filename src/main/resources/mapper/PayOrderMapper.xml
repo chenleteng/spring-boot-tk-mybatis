@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qw.korea.sdk.crm.backstage.mapper.PayOrderMapper">
+  <resultMap id="BaseResultMap" type="com.qw.korea.sdk.crm.backstage.entity.PayOrder">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="cp_trade_no" jdbcType="VARCHAR" property="cpTradeNo" />
+    <result column="pay_channel" jdbcType="CHAR" property="payChannel" />
+    <result column="pay_type" jdbcType="VARCHAR" property="payType" />
+    <result column="order_status" jdbcType="CHAR" property="orderStatus" />
+    <result column="order_fee" jdbcType="DECIMAL" property="orderFee" />
+    <result column="pay_fee" jdbcType="DECIMAL" property="payFee" />
+    <result column="show_fee" jdbcType="DECIMAL" property="showFee" />
+    <result column="show_currency" jdbcType="VARCHAR" property="showCurrency" />
+    <result column="game_id" jdbcType="INTEGER" property="gameId" />
+    <result column="product_id" jdbcType="VARCHAR" property="productId" />
+    <result column="server_id" jdbcType="INTEGER" property="serverId" />
+    <result column="server_name" jdbcType="VARCHAR" property="serverName" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="role_id" jdbcType="VARCHAR" property="roleId" />
+    <result column="role_name" jdbcType="VARCHAR" property="roleName" />
+    <result column="client_ip" jdbcType="VARCHAR" property="clientIp" />
+    <result column="client_notify_time" jdbcType="TIMESTAMP" property="clientNotifyTime" />
+    <result column="cp_id" jdbcType="VARCHAR" property="cpId" />
+    <result column="cp_ip" jdbcType="VARCHAR" property="cpIp" />
+    <result column="cp_ex_info" jdbcType="VARCHAR" property="cpExInfo" />
+    <result column="cp_callback_url" jdbcType="VARCHAR" property="cpCallbackUrl" />
+    <result column="cp_callback_result" jdbcType="VARCHAR" property="cpCallbackResult" />
+    <result column="cp_callback_time" jdbcType="TIMESTAMP" property="cpCallbackTime" />
+    <result column="other_app_id" jdbcType="VARCHAR" property="otherAppId" />
+    <result column="other_trade_no" jdbcType="VARCHAR" property="otherTradeNo" />
+    <result column="other_status" jdbcType="VARCHAR" property="otherStatus" />
+    <result column="other_paid_currency" jdbcType="VARCHAR" property="otherPaidCurrency" />
+    <result column="other_callback_fee" jdbcType="DECIMAL" property="otherCallbackFee" />
+    <result column="other_callback_time" jdbcType="TIMESTAMP" property="otherCallbackTime" />
+    <result column="receive_callback_time" jdbcType="TIMESTAMP" property="receiveCallbackTime" />
+    <result column="order_title" jdbcType="VARCHAR" property="orderTitle" />
+    <result column="order_desc" jdbcType="VARCHAR" property="orderDesc" />
+    <result column="notify_flag" jdbcType="BIT" property="notifyFlag" />
+    <result column="test_order" jdbcType="BIT" property="testOrder" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="expire_time" jdbcType="TIMESTAMP" property="expireTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="ext" jdbcType="VARCHAR" property="ext" />
+    <result column="ext2" jdbcType="VARCHAR" property="ext2" />
+  </resultMap>
+</mapper>

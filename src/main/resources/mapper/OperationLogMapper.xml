@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qw.korea.sdk.crm.backstage.mapper.OperationLogMapper">
+  <resultMap id="BaseResultMap" type="com.qw.korea.sdk.crm.backstage.entity.OperationLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="game_id" jdbcType="INTEGER" property="gameId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="category" jdbcType="VARCHAR" property="category" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="operation_content" jdbcType="VARCHAR" property="operationContent" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="operation_time" jdbcType="TIMESTAMP" property="operationTime" />
+  </resultMap>
+</mapper>

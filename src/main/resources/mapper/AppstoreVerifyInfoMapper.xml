@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qw.korea.sdk.crm.backstage.mapper.AppstoreVerifyInfoMapper">
+  <resultMap id="BaseResultMap" type="com.qw.korea.sdk.crm.backstage.entity.AppstoreVerifyInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="transaction_id" jdbcType="VARCHAR" property="transactionId" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="receipt_id" jdbcType="VARCHAR" property="receiptId" />
+    <result column="test_order" jdbcType="BIT" property="testOrder" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="verify_info" jdbcType="LONGVARCHAR" property="verifyInfo" />
+  </resultMap>
+</mapper>

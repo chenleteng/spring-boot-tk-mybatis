@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qw.korea.sdk.crm.backstage.mapper.GooglePurchaseDataMapper">
+  <resultMap id="BaseResultMap" type="com.qw.korea.sdk.crm.backstage.entity.GooglePurchaseData">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="google_order_no" jdbcType="VARCHAR" property="googleOrderNo" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="purchase_token" jdbcType="VARCHAR" property="purchaseToken" />
+    <result column="consume_flag" jdbcType="BIT" property="consumeFlag" />
+    <result column="kind" jdbcType="VARCHAR" property="kind" />
+    <result column="purchase_state" jdbcType="INTEGER" property="purchaseState" />
+    <result column="consumption_state" jdbcType="INTEGER" property="consumptionState" />
+    <result column="purchase_type" jdbcType="INTEGER" property="purchaseType" />
+    <result column="purchase_time" jdbcType="TIMESTAMP" property="purchaseTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+  </resultMap>
+</mapper>
